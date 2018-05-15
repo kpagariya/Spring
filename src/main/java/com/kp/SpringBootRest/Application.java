@@ -12,7 +12,13 @@ public class Application {
 
     @RequestMapping("/")
     public String hello() {
-        return "Hello spring boot rest World";
+    	int i;
+    	try {
+    		// Empty block added to catch in PMD
+    	}catch(Exception e){
+    		
+    	}
+    	return "Hello spring boot rest World";
     }
 
     public static void main(String[] args) {
