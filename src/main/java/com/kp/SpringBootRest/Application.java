@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Application {
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String hello() {
     	int i;
     	try {
