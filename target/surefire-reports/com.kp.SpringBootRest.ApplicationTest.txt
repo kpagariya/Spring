@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.kp.SpringBootRest.ApplicationTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.524 s <<< FAILURE! - in com.kp.SpringBootRest.ApplicationTest
-getHello(com.kp.SpringBootRest.ApplicationTest)  Time elapsed: 0.171 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Hello spring boot rest World]> but was:<[]>
-	at com.kp.SpringBootRest.ApplicationTest.getHello(ApplicationTest.java:41)
-
